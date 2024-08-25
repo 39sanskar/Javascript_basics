@@ -4,6 +4,10 @@
 
 console.log(3 + 3); console.log("Satyam") // code readability should be high.
 
+console.log(3 
+    +
+     3) // code readability should be high
+
 let name = "Aman";
 let age = 18
 let isLogged = false
