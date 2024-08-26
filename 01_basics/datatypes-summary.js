@@ -50,6 +50,30 @@ console.log(typeof anotherId);
 //Object (native or host and does implement [[Call]]) :	"function"
 //Object (host and does not implement [[Call]])	: Implementation-defined except may not be "undefined", "boolean", "number", or "string".
 
+// **********Memory*********
+//Stack-Memory is used in the (Primitive-Datatypes) in this memory it return the copy of those who declare by you.
+//Heap(Non-Primitive)in this memory it return the original value reference of the memory (jo bhi change karaege wo original value me change hoga.)
+
+let myYoutubename = "SanskarMishradotcom"
+
+let anothername = myYoutubename
+anothername = "AmanMishradotcom"
+
+console.log(myYoutubename);
+console.log(anothername);
+//in the myYoutubename actually not give the value but it gives its copy and then we do change in the copy that change only show in the copy. not in the acctual value change.(it use the Stack-Memory).
+
+let userOne = {
+    email: "user@google.com",
+    upi: "suer@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Sanskar@email.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+//in the above example it refer the Heap-Memory.(it refer the original value and if do change then it change the original value.)
 
 
 
