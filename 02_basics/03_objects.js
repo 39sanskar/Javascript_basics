@@ -1,7 +1,7 @@
 //Declaration of object has two types - one is Literal and another one is constructor.
 // singleton - koi bhi constructor se bamatae hai to singleton hi banta hai . ye aapnae tarah ka eak hi object hai .
 
-// literals ki tarah declare kartae hsi to singleton nahi banta hai.
+// literals ki tarah declare kartae hai to singleton nahi banta hai.
 //Object.create it is known as the constructor method 
 
 
