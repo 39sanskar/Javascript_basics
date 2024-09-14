@@ -55,9 +55,9 @@ function addone(num){
 addone(5)
 //console.log(addone(5));
 
-const addTwo = function(num){
+//const addTwo = function(num){
   return num + 2
-}
+//}
 // const addTwo it is a type of function declaration and also known as expression. here function is declare but also hold in the variable.(remember)
 addTwo(5)
 
