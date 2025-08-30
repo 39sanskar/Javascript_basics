@@ -63,3 +63,33 @@ functions as well)	         |     "function"
 Any other object	           |     "object"
 
 */
+
+
+
+
+// +++++++++++++++++++++++++++++++ Memory +++++++++++++++++++++++++
+
+// Stack (Primitive) => when uses stack memory (if you create a variable its copy is provide to you.)
+// Stack => In the Stack Memory (it provoide us copy so changes are reflect in the copy.)
+// Heap (Non-Primitive) => it provide you reference of the original value if create some changes then it refelect in the original value.
+
+let myYoutubename = "sanskarmishra.com"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);  // sanskarmishra.com
+console.log(anothername);   // chaiaurcode
+
+// In the Heap Memory (it provoide us reference so changes are reflect in the original value.)
+let userOne = {
+  email: "user@google.com",
+  upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "sanskar@google.com"
+
+console.log(userOne.email); // sanskar@google.com
+console.log(userTwo.email);  // sanskar@google.com
