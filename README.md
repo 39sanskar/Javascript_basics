@@ -1,1 +1,1 @@
-# Javascript_basics
+# A Complete JavaScript web-series.
